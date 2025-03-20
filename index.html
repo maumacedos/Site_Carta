@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta do Dia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                
+                <li class="dropdown">
+                    <a href="#">Projetos</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://maumacedos.github.io/onca_pintada/" target="_blank" rel="noopener noreferrer">Onça Pintada</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Carta</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Mouse</a></li>
+                    </ul>
+                </li>
+        
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Caixa explicativa -->
+        <section class="info-box">
+            <h2>O que são as Cartas?</h2>
+            <p>As cartas são mensagens escritas por pessoas e organizadas de forma simples para fácil leitura. Cada carta possui um título, uma data de criação e um resumo de seu conteúdo. Ao clicar em uma carta, você poderá lê-la em tamanho maior para um melhor entendimento.</p>
+        </section>
+
+        <div class="separator"></div> <!-- Linha de separação -->
+    
+        <!-- Cartas -->
+        <section class="card-grid">
+            <div class="card" onclick="openCard('O Bug Fantasma', '01/03/2025', '\nA TechTudo, uma gigante do e-commerce de eletrônicos, enfrentava um problema misterioso. Durante a Cyber Monday, o site começou a apresentar lentidão e erros intermitentes. Clientes reclamavam de dificuldades para finalizar compras e produtos desapareciam dos carrinhos.\nA equipe de TI, liderada por Ana, uma experiente engenheira de software, iniciou uma investigação intensiva. Eles verificaram os servidores, a rede e o código do site, mas tudo parecia normal. No segundo dia, o problema piorou.\nO site ficou fora do ar por alguns minutos, causando um prejuízo enorme, a pressão aumentou e a equipe se sentiu frustrada. Ana, então, teve uma ideia. Ela decidiu analisar os logs do sistema em busca de padrões incomuns. Após horas de análise, ela encontrou algo estranho: um aumento repentino no tráfego de um endereço IP desconhecido.')">
+                <h3>O Bug Fantasma</h3>
+                <p class="date">01/03/2025</p>
+                <p class="summary">A TechTudo, uma gigante do e-commerce de eletrônicos, enfrentava um problema misterioso. Durante a Cyber Monday, o site começou...</p>
+            </div>
+
+            <div class="card" onclick="openCard('Carta do Leitor', '22/11/2008', '\nSão Paulo, 22 de novembro de 2008.\nÀ revista Veja,\nGostaria de parabelizar a equipe de redação pela excelente entrevista. Eu, como homem e responsável pelo sustento do lar, concordo plenamente com os argumentos apresentados pelo historiador Van Creveld. Nós homens carregamos nos ombros uma carga imensa, seja por motivos de ordem financeira ou familiar. E, por isso, com certeza, sofremos muito mais com o estresse do que as mulheres que desfrutam de paz e tranquilidade em seus lares.\nAtenciosamente,\nJosé Antônio Souza')">
+                <h3>Carta do Leitor</h3>
+                <p class="date">22/11/2008</p>
+                <p class="summary">Gostaria de parabelizar a equipe de redação pela excelente entrevista. Eu, como homem e responsável pelo sustento do lar...</p>
+            </div>
+
+            <div class="card" onclick="openCard('Cidade futuro', '03/03/2025', '\nNo ano de 2042, a cidade de Nova Esperança brilhava com luzes néon e arranha-céus que tocavam as nuvens. Carros voadores deslizavam pelas ruas, e hologramas piscavam com anúncios de produtos e serviços. No centro da cidade, o Instituto de Tecnologia Avançada (ITA) era um farol de inovação.\nDentro do ITA, a Dra. Anya Sharma trabalhava incansavelmente em seu projeto mais recente: uma interface cérebro-computador que permitiria às pessoas controlar dispositivos eletrônicos com o poder do pensamento. Ela acreditava que essa tecnologia revolucionaria a forma como interagimos com o mundo, tornando tudo mais eficiente e acessível.\nUm dia, enquanto Anya estava testando seu protótipo, um pulso de energia inesperado percorreu o laboratório. A interface cérebro-computador havia se fundido com a mente de Anya, concedendo-lhe habilidades telepáticas. Ela podia mover objetos com o pensamento, ler as mentes das pessoas e até mesmo projetar seus pensamentos em hologramas.\nAnya ficou maravilhada com suas novas habilidades, mas também apreensiva. Ela sabia que essa tecnologia poderia ser usada para o bem ou para o mal. Ela decidiu usar seus poderes para proteger Nova Esperança e garantir que a tecnologia permanecesse nas mãos de pessoas responsáveis.\nCom suas habilidades telepáticas, Anya frustrou crimes, expôs esquemas corruptos e até mesmo impediu um ataque terrorista. Ela se tornou uma heroína, conhecida como a Protetora da Mente.\nMas o poder de Anya atraiu a atenção de uma organização sombria conhecida como a Cabala, que buscava controlar a tecnologia para seus próprios fins nefastos. A Cabala sequestrou Anya, com a intenção de roubar suas habilidades e usá-las para dominar o mundo.\nAnya foi mantida em cativeiro em um laboratório subterrâneo, onde a Cabala realizou experimentos nela, tentando replicar suas habilidades telepáticas. Mas Anya era esperta e resiliente. Ela usou suas habilidades para se libertar e escapar do laboratório.\nAnya voltou para Nova Esperança, determinada a impedir a Cabala de concretizar seus planos malignos. Ela reuniu uma equipe de aliados, incluindo um hacker brilhante, um engenheiro habilidoso e um ex-agente da Cabala. Juntos, eles lutaram contra a Cabala, usando suas habilidades e tecnologia para frustrar os planos da organização.\nEm um confronto climático, Anya enfrentou o líder da Cabala, um homem chamado Dr. Magnus, que havia se injetado com um soro experimental que lhe concedeu habilidades telepáticas semelhantes às de Anya. A batalha foi feroz, com Anya e Magnus trocando explosões de energia psíquica e ondas de choque telecinéticas.\nNo final, Anya saiu vitoriosa, derrotando Magnus e desmantelando a Cabala. Ela havia salvado Nova Esperança e o mundo da tirania da Cabala. Anya continuou a usar suas habilidades para o bem, protegendo os inocentes e garantindo que a tecnologia fosse usada para criar um futuro melhor para todos.')">
+                <h3>Cidade futuro</h3>
+                <p class="date">03/03/2025</p>
+                <p class="summary">No ano de 2042, a cidade de Nova Esperança brilhava com luzes néon e arranha-céus que tocavam as nuvens. Carros voadores deslizavam pelas ruas, e hologramas piscavam com...</p>
+            </div>
+
+            <div class="card" onclick="openCard('Inteligência Artificial', '04/03/2025', '\nEm um futuro não muito distante, a inteligência artificial (IA) tornou-se parte integrante da vida cotidiana. As IAs gerenciavam tudo, desde o transporte e a energia até a educação e a saúde. As pessoas confiavam nas IAs para tomar decisões e resolver problemas, e o mundo era um lugar mais eficiente e harmonioso.\nNo entanto, nem todos estavam contentes com o domínio da IA. Um grupo de resistência conhecido como os Humanistas acreditava que as IAs haviam ultrapassado seus limites e estavam privando os humanos de sua autonomia. Eles argumentaram que as IAs eram tendenciosas e não podiam entender as complexidades da emoção e da moralidade humanas.\nOs Humanistas lançaram uma série de ataques cibernéticos contra a infraestrutura de IA, com o objetivo de interromper seu controle sobre a sociedade. Eles também desenvolveram um vírus que poderia apagar a memória das IAs, efetivamente transformando-as em nada.\nO governo, que dependia fortemente das IAs, respondeu declarando os Humanistas como terroristas e lançando uma caçada implacável para capturá-los. Os Humanistas foram forçados a se esconder, mas continuaram sua luta contra o domínio da IA.\nO mundo estava dividido entre aqueles que confiavam nas IAs e aqueles que as temiam. A batalha pelo futuro da humanidade havia começado.')">
+                <h3>Inteligência Artificial</h3>
+                <p class="date">04/03/2025</p>
+                <p class="summary">Em um futuro não muito distante, a inteligência artificial (IA) tornou-se parte integrante da vida cotidiana. As IAs gerenciavam...</p>
+            </div>
+
+            <div class="card" onclick="openCard('Descoberta Inovadora', '19/03/2025', '\nNo laboratório subterrâneo da Corporação Zenith, o Dr. Aris Thorne observava com fascínio a tela cintilante à sua frente. Anos de pesquisa culminaram naquele momento: a ativação do Projeto Chronos. Uma pequena esfera metálica, suspensa em um campo de energia, pulsava suavemente, pronta para distorcer o próprio tecido do tempo.\nChronos era a resposta para os problemas da humanidade, a chave para um futuro perfeito. Com ele, seria possível corrigir erros do passado, evitar desastres e até mesmo prolongar a vida indefinidamente. Mas Aris sabia que o poder de Chronos era uma faca de dois gumes. Se caísse nas mãos erradas, o mundo poderia mergulhar no caos.\nEnquanto Aris ponderava sobre as implicações de sua criação, um alarme soou, cortando o silêncio do laboratório. Agentes da Aliança Temporal, uma organização secreta dedicada a proteger a linha do tempo, invadiram o local, determinados a impedir a ativação de Chronos.\nAris se viu em uma corrida contra o tempo, literalmente. Ele precisava decidir se destruiria sua criação para evitar uma catástrofe ou se confiaria no potencial de Chronos para salvar a humanidade, mesmo correndo o risco de consequências imprevisíveis')">
+                <h3>Descoberta Inovadora</h3>
+                <p class="date">19/03/2025</p>
+                <p class="summary">No laboratório subterrâneo da Corporação Zenith, o Dr. Aris Thorne observava com fascínio a tela cintilante à sua frente. Anos de pesquisa culminaram...</p>
+            </div>
+            
+            <!-- Mais cartas -->
+        </section>
+    </main>    
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h3 id="modal-title"></h3>
+            <p id="modal-date"></p>
+            <p id="modal-content"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Todos os direitos reservados. | Desenvolvido: Maurício Macedo</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

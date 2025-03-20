@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                
+                <li class="dropdown">
+                    <a href="#">Projetos</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://maumacedos.github.io/onca_pintada/" target="_blank" rel="noopener noreferrer">Onça Pintada</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Carta</a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer">Mouse</a></li>
+                    </ul>
+                </li>
+        
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Caixa explicativa -->
+        <section class="info-box">
+            <h2>Sobre Nós</h2>
+            <p>Somos um projeto dedicado à preservação e compartilhamento de histórias através de cartas escritas. Acreditamos no poder das palavras como forma de comunicação genuína e na importância de documentar momentos históricos e pessoais. Nosso site reúne cartas de diversas origens, oferecendo uma janela para o passado e uma forma de conectar as pessoas por meio de relatos escritos.</p>
+        </section>
+
+        <div class="separator"></div> <!-- Linha de separação -->
+
+        <!-- Novas Caixas de Informação -->
+        <section class="info-box">
+            <h2>Missão</h2>
+            <p>Nosso objetivo é preservar e divulgar cartas escritas de diversas épocas, proporcionando um espaço onde as histórias e experiências humanas possam ser compartilhadas. Acreditamos que, por meio das cartas, conseguimos resgatar sentimentos, culturas e momentos históricos de maneira única, permitindo que as gerações futuras tenham acesso a essas preciosas memórias.</p>
+        </section>
+
+        <div class="separator"></div> <!-- Linha de separação -->
+
+        <section class="info-box">
+            <h2>Visão</h2>
+            <p>Ser reconhecido como um espaço fundamental para a preservação da história através das cartas escritas. Desejamos criar uma plataforma onde as pessoas possam compartilhar suas cartas, aprender sobre a história de outras culturas e refletir sobre os valores e sentimentos imortalizados através da escrita. A longo prazo, queremos expandir nosso acervo, tornando-o uma referência mundial em preservação de cartas e memórias.</p>
+        </section>
+    
+    </main>    
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h3 id="modal-title"></h3>
+            <p id="modal-date"></p>
+            <p id="modal-content"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Todos os direitos reservados. | Desenvolvido: Maurício Macedo</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
